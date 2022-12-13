@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inmobiliaria Pusch</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="topbar">
+            <div class="brand">
+                <a href="./index.html">
+                    <img src="./assets/images/brand.png" alt="">
+                    <span class="brand_tittle">INMOBILIARIA <span class="brand_second_tittle">PUSCH</span> </span>
+                </a>
+            </div>
+
+            <div class="topbar_social">
+                <ul>
+                    <!-- No quería dejar los enlaces vacios! -->
+                    <li><a href="https://bit.ly/3OO6Pmg" target="_blank" rel="noopener"><img class="icon"
+                                src="./assets/images/facebook.png" alt=""></a></li>
+                    <li><a href="https://bit.ly/3OO6Pmg" target="_blank" rel="noopener"><img class="icon"
+                                src="./assets/images/instagram.png" alt=""></a></li>
+                </ul>
+            </div>
+
+            <div class="topbar_items">
+                <ul>
+                    <li><a href="https://bit.ly/3uaWhUG" target="_blank" rel="noopener"><img class="icon icon_s"
+                                src="./assets/images/map.png" alt="">Gobernador Medus 1333 - San Benito</a></li>
+                    <li><a href="https://wa.me/5493434473910" target="_blank" rel="noopener"><img class="icon icon_s"
+                                src="./assets/images/whatsapp.png" alt="">+54 343 447-3910</a></li>
+                    <li><a href="https://mail.google.com/mail/?view=cm&source=mailto&to=contacto@inmobiliaria-pusch.com.ar"
+                            target="_blank" rel="noopener"><img class="icon icon_s" src="./assets/images/email.png"
+                                alt="">contacto@inmobiliaria-pusch.com.ar</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="nav_links">
+            <nav>
+                <ul>
+                    <li><a href="./index.html">INICIO</a></li>
+                    <li><a href="./pages/busquedas.html">BUSQUEDAS</a></li>
+                    <li><a href="./pages/contacto.html">CONTACTO</a></li>
+                    <li><a href="./pages/acerca_de_nosotros.html">ACERCA DE NOSOTROS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <article class="form">
+                <h1 class="form_tittle">Buscador</h1>
+                <form class="text--font">
+                    <label for="operation">Operación</label>
+                    <select name="operation" id="operation" class="form-control">
+                        <option value="0">Seleccionar</option>
+                        <option value="venta">Venta</option>
+                        <option value="alquiler">Alquiler</option>
+                    </select>
+
+                    <label for="tipo">Tipo</label>
+                    <select name="tipo" id="tipo" class="form-control">
+                        <option value="0">Seleccionar</option>
+                        <option value="campos">Campos</option>
+                        <option value="casa_duplex">Casa Duplex</option>
+                        <option value="casa_planta_alta">Casa Planta Alta</option>
+                        <option value="casas">Casas</option>
+                        <option value="casas_con_local">Casas con local</option>
+                        <option value="cocheras">Cocheras</option>
+                        <option value="departamentos">Departamentos</option>
+                        <option value="emprendimiento">Emprendimiento</option>
+                        <option value="galpón">Galpón</option>
+                        <option value="local">Local</option>
+                        <option value="oficina">Oficina</option>
+                        <option value="parcela">Parcela</option>
+                        <option value="terreno">Terreno</option>
+                    </select>
+
+                    <label for="cant_dormitorios">Cantidad de dormitorios</label>
+                    <select name="cant_dormitorios" id="cant_dormitorios">
+                        <option value="0">Seleccionar</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4 o más</option>
+                    </select>
+
+                    <input type="submit" value="Buscar">
+                </form>
+            </article>
+
+            <div class="wireframe_image">
+                <!-- No es funcional, pero aquí van puntuados los productos disponibles -->
+                <img src="./assets/images/map-wireframe.png" alt="">
+            </div>
+
+            <div class="discounts">
+                <h2 class="discounts_tittle">Ofertas</h2>
+
+                <div class="items">
+
+                    <article class="first_disccount">
+                        <a href="./pages/propiedad.html">
+                            <img class="thumbnail" src="./assets/images/articles/discounts_image1.png" alt="">
+                            <h4>Departamento</h4>
+                            <p>En alquiler, con vista a la costa.</p>
+                        </a>
+                    </article>
+
+
+                    <article class="second_disccount">
+                        <a href="./pages/propiedad.html">
+                            <img class="thumbnail" src="./assets/images/articles/discounts_image2.png" alt="">
+                            <h4>Terreno</h4>
+                            <p>En venta, con todos los servicios básicos.</p>
+                        </a>
+                    </article>
+
+                    <article class="third_disccount">
+                        <a href="./pages/propiedad.html">
+                            <img class="thumbnail" src="./assets/images/articles/discounts_image3.png" alt="">
+                            <h4>Duplex</h4>
+                            <p>En alquiler, próximo a la academia de policias.</p>
+                        </a>
+                    </article>
+
+                    <article class="fourth_disccount">
+                        <a href="./pages/propiedad.html">
+                            <img class="thumbnail" src="./assets/images/articles/discounts_image4.png" alt="">
+                            <h4>Local</h4>
+                            <p>En alquiler, por zona altamente urbanizada.</p>
+                        </a>
+                    </article>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Inmobiliaria Pusch - Copyright 2022. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
